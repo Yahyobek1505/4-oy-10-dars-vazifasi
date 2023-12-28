@@ -75,22 +75,22 @@
 // console.log("Eng uzun so'z: " + uzunSoz);
 
 // <========================> 5-masala <===========================>
-function KattaBilanYozish(gap) {
-  if (gap.length > 0) {
+// function KattaBilanYozish(gap) {
+//   if (gap.length > 0) {
 
-    let birinchiHarf = gap.charAt(0);
+//     let birinchiHarf = gap.charAt(0);
 
-    let kattaBilanYozilgan = birinchiHarf.toUpperCase() + gap.slice(1);
+//     let kattaBilanYozilgan = birinchiHarf.toUpperCase() + gap.slice(1);
 
-    // Yangi gapni qaytarish
-    return kattaBilanYozilgan;
-  } else {
-    // Agar gap bo'sh bo'lsa, gapni o'ziga o'zini qaytarish
-    return gap;
-  }
-}
+//     // Yangi gapni qaytarish
+//     return kattaBilanYozilgan;
+//   } else {
+//     // Agar gap bo'sh bo'lsa, gapni o'ziga o'zini qaytarish
+//     return gap;
+//   }
+// }
 
-let oddiyGap = "javascript eng zo'r dasturlash tili ";
-let boshGap = KattaBilanYozish(oddiyGap);
-console.log(boshGap);
+// let oddiyGap = "javascript eng zo'r dasturlash tili ";
+// let boshGap = KattaBilanYozish(oddiyGap);
+// console.log(boshGap);
 
